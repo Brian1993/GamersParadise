@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="678px" height="212px" viewBox="0 0 678 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="48.7371355%" cy="50%" fx="48.7371355%" fy="50%" r="100%" gradientTransform="translate(0.487371,0.500000),scale(0.289086,1.000000),rotate(90.000000),translate(-0.487371,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#69CDF0" stop-opacity="0.553328804" offset="0%"></stop>
+            <stop stop-color="#69CDF0" stop-opacity="0.687330163" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="選單" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-572.000000, -176.000000)">
+            <g id="Group" transform="translate(572.000000, 176.000000)">
+                <path d="M90.1206019,3.5 L3.5,65.3023395 L3.5,181.587387 L28.4871626,207.5 L622.45874,207.5 L674.5,150.640104 L674.5,40.9497475 L637.050253,3.5 L90.1206019,3.5 Z" id="Rectangle-8" stroke="#58DCF7" stroke-width="7"></path>
+                <polygon id="Rectangle-8" fill="url(#radialGradient-1)" points="89 8 196 8 638.5 8 678 44.6919431 678 149.194313 624 204 27 204 0 177.990521 0 66.985782"></polygon>
+                <polygon id="Rectangle-9" fill="#58DCF7" points="93 4 633 4 648.5 18.5 535.5 18.5 493.5 38.5 418.5 38.5 390.5 18.5 120.5 18.5 93 38.5 43 38.5"></polygon>
+                <polygon id="Rectangle-9" fill="#58DCF7" transform="translate(335.250000, 194.250000) scale(-1, -1) translate(-335.250000, -194.250000) " points="49 182 634 177 649.5 191.5 536.5 191.5 494.5 211.5 419.5 211.5 391.5 191.5 121.5 191.5 94 211.5 21 211.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

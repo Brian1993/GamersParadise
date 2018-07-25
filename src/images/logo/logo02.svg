@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="162px" height="128px" viewBox="0 0 162 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M75.1631864,52.8691884 L83.1975155,55.0567533 L73.4683314,79.6969697 L61.395212,49.1204825 L72.5525996,52.1583851 L73.8882892,67.7756788 L75.1631864,52.8691884 Z M77.4067399,26.6368706 L96.4683917,21.4468168 L104.936663,0 L42,0 L54.9336167,32.7557902 L70.5299768,28.5092566 L68.4288377,3.9420926 L79.3477406,3.9420926 L77.4067399,26.6368706 Z" id="path-1"></path>
+        <filter x="-68.3%" y="-51.4%" width="236.6%" height="207.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="14" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.651546556   0 0 0 0 0.651546556   0 0 0 0 0.651546556  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-3" font-family="Gugi-Regular, Gugi" font-size="9" font-weight="normal" letter-spacing="3.64500046" fill="#9DC4E3">
+            <tspan x="3.55348142" y="45">GAMERS PARADISE </tspan>
+        </text>
+        <filter x="-15.0%" y="-222.2%" width="130.0%" height="588.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="首頁" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="冒險類02" transform="translate(-24.000000, 0.000000)">
+            <g id="logo" transform="translate(34.000000, 24.000000)">
+                <g id="Combined-Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#34A5E9" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="GAMERS-PARADISE" fill-opacity="1" fill="#9DC4E3">
+                    <use filter="url(#filter-4)" xlink:href="#text-3"></use>
+                    <use xlink:href="#text-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

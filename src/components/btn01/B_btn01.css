@@ -1,0 +1,57 @@
+.B_btn01 {
+  position: relative;
+  border: 1.5px solid #fff;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s; }
+
+.B_btn01:hover {
+  text-shadow: 0 0 20px #02d6cc;
+  box-shadow: inset 0 0 20px rgba(2, 214, 204, 0.5), 0 0 20px rgba(2, 214, 204, 0.2);
+  border: 1px solid #02d6cc;
+  color: #02d6cc;
+  letter-spacing: 3px; }
+
+.B_btn01::before {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: 1px solid #02d6cc;
+  opacity: 0;
+  transition: .8s; }
+
+.B_btn01:hover::before {
+  transform: scale(1.25);
+  opacity: 1; }
+
+.B_btn01::after {
+  position: absolute;
+  content: "";
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  transition: .5s outline-color,  .5s outline,  .5s transform;
+  transition-timing-function: cubic-bezier(0.2, 0.8, 0.25, 0.8);
+  transform: scale3d(1.1, 1.3, 0);
+  outline: 0px solid;
+  outline-color: rgba(2, 214, 204, 0.05);
+  outline-offset: -10px; }
+
+.B_btn01:hover::after {
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  transform: scale(1);
+  outline: 1px solid;
+  outline-color: rgba(102, 212, 207, 0.6);
+  outline-offset: 10px;
+  transition: 0.5s outline-offset cubic-bezier(0.2, 0.8, 0.25, 0.8), 0.5s outline-color cubic-bezier(0.2, 0.8, 0.25, 0.8), 0.5s outline cubic-bezier(0.2, 0.8, 0.25, 0.8); }

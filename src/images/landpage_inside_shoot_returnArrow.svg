@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="34px" viewBox="0 0 41 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="射擊館" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.746603261">
+        <g id="主頁內頁（熱門影片展開）" transform="translate(-1153.000000, -642.000000)" fill-rule="nonzero" fill="#24B2E2">
+            <g id="返回" transform="translate(1118.000000, 632.000000)">
+                <g id="arrow-return-left" transform="translate(35.000000, 10.000000)">
+                    <path d="M13.6666667,0 L13.6666667,6.8 L40.1458333,6.8 C40.615625,6.8 41,7.1825 41,7.65 L41,33.15 C41,33.6175 40.615625,34 40.1458333,34 L7.6875,34 C7.21770833,34 6.83333333,33.6175 6.83333333,33.15 L6.83333333,28.05 C6.83333333,27.5825 7.21770833,27.2 7.6875,27.2 L34.1666667,27.2 L34.1666667,13.6 L13.6666667,13.6 L13.6666667,20.4 L0,10.2 L13.6666667,0 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

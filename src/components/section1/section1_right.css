@@ -1,0 +1,122 @@
+.section1_right {
+  flex: 85%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .section1_right .s1_r_overlay {
+    position: absolute;
+    right: -100%;
+    width: 100%;
+    height: 90%;
+    background: #3090B9;
+    z-index: 50; }
+  .section1_right .s1_r_content_wrap {
+    position: relative;
+    margin-top: 5%;
+    margin: 7% 5% 0  0;
+    width: 85%;
+    height: 80%;
+    box-sizing: border-box; }
+    .section1_right .s1_r_content_wrap .s1_main_content {
+      position: absolute;
+      top: 10%;
+      right: 6%;
+      width: 90%;
+      height: 73%; }
+      .section1_right .s1_r_content_wrap .s1_main_content .front {
+        position: absolute;
+        top: 0;
+        width: 90%;
+        height: 92%;
+        z-index: 1; }
+        .section1_right .s1_r_content_wrap .s1_main_content .front img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: top center;
+          opacity: 1; }
+      .section1_right .s1_r_content_wrap .s1_main_content .back {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        width: 70%;
+        height: 80%;
+        z-index: 0; }
+      .section1_right .s1_r_content_wrap .s1_main_content .back_adventure {
+        /* back: */
+        opacity: .5;
+        background-image: linear-gradient(-180deg, #63A87A 1%, #3E6349 99%); }
+      .section1_right .s1_r_content_wrap .s1_main_content .back_shooting {
+        background-image: linear-gradient(-180deg, #42D6F5 1%, #023C5E 99%); }
+      .section1_right .s1_r_content_wrap .s1_main_content .back_sport {
+        background-image: linear-gradient(-180deg, #F5D542 1%, #545202 99%); }
+      .section1_right .s1_r_content_wrap .s1_main_content .back_horror {
+        background-image: linear-gradient(-180deg, #B23232 4%, #560606 96%); }
+      .section1_right .s1_r_content_wrap .s1_main_content .halo {
+        position: absolute;
+        left: 5%;
+        top: -5%;
+        width: 90%;
+        height: 100%;
+        opacity: 0.43;
+        filter: blur(26px); }
+      .section1_right .s1_r_content_wrap .s1_main_content .halo_adventure {
+        background: #A3EEC8; }
+      .section1_right .s1_r_content_wrap .s1_main_content .halo_shooting {
+        background: #3090B9; }
+      .section1_right .s1_r_content_wrap .s1_main_content .halo_sport {
+        background: #7A7C50; }
+      .section1_right .s1_r_content_wrap .s1_main_content .halo_horror {
+        background: #C64848; }
+    .section1_right .s1_r_content_wrap .gameTag_btn {
+      position: absolute;
+      left: 14%;
+      bottom: 23%;
+      width: 80%;
+      height: 20%;
+      z-index: 1; }
+      .section1_right .s1_r_content_wrap .gameTag_btn .game-tag {
+        display: flex;
+        justify-content: flex-end;
+        border-bottom: 1px solid #fff; }
+        .section1_right .s1_r_content_wrap .gameTag_btn .game-tag .tag-text {
+          text-align: center; }
+        .section1_right .s1_r_content_wrap .gameTag_btn .game-tag h4 {
+          font-size: 24px;
+          color: #E2E2E2;
+          letter-spacing: 6.67px; }
+        .section1_right .s1_r_content_wrap .gameTag_btn .game-tag h2 {
+          font-size: 48px;
+          font-family: PingFangTC-Regular;
+          color: #E2E2E2;
+          letter-spacing: 22.5px;
+          text-shadow: 0 2px 1px rgba(117, 219, 255, 0.5); }
+      .section1_right .s1_r_content_wrap .gameTag_btn .game-btn {
+        padding: 12px; }
+
+@media screen and (max-width: 500px) {
+  .section1_right {
+    flex: 100% !important; }
+  .s1_r_content_wrap {
+    margin: 40px 0 0 20px;
+    width: 100% !important;
+    height: 100% !important; }
+  .s1_main_content {
+    top: 15% !important;
+    height: 80% !important;
+    right: 5% !important; }
+  .s1_r_content_wrap .front {
+    top: 3%;
+    width: 100% !important; }
+  .s1_r_content_wrap .front img {
+    opacity: .78 !important; }
+  .s1_r_content_wrap .back {
+    top: 15% !important;
+    right: -7% !important;
+    width: 90% !important;
+    height: 83% !important; }
+  .gameTag_btn {
+    left: 19% !important;
+    bottom: 14% !important; } }

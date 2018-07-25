@@ -1,0 +1,83 @@
+.B_btn02{
+    position: relative;
+  
+    cursor: pointer;
+    border: 1.5px solid #fff;
+    width: 100px;
+    height: 40px;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .8s;
+    /* overflow: hidden; */
+}
+.B_btn02::before , .B_btn02::after{
+    position: absolute;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: 15px;
+    height: 15px;
+    background: #08CEF3;
+    content: "";
+    z-index: -1;
+}
+.B_btn02:before {
+opacity: 0;
+left: -20px;
+transform: translate(-50%, -50%);
+transition: .5s;
+
+}
+.B_btn02:after {
+opacity: 0;
+right: -20px;
+transform: translate(50%, -50%);
+transition: .5s;
+
+}
+.B_btn02:hover {
+    box-shadow: 2px 2px 15px 5px #fff;     
+}
+.B_btn02:hover:before {
+    opacity:1;
+    animation: to-left .5s both;
+    box-shadow: 0 0 15px 5px #08CEF3;
+}
+.B_btn02:hover:after {
+    opacity:1;
+    animation: to-right .5s both;
+    box-shadow: 0 0 15px 5px #08CEF3;
+}
+@keyframes to-right {
+0% {
+right: -20px;
+}
+50% {
+right: 50%;
+width: 15px;
+height: 15px;
+}
+100% {
+right: 50%;
+width: 100%;
+height: 100%;
+}
+}
+@keyframes to-left {
+0% {
+left: -20px;
+}
+50% {
+left: 50%;
+width: 15px;
+height: 15px;
+}
+100% {
+left: 50%;
+width: 100%;
+height: 100%;
+}
+}

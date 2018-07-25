@@ -1,0 +1,151 @@
+.abc{
+    color:#fff;
+}
+    .pointer_event{
+        pointer-events: none; 
+    }
+.lp_left_side{
+    flex: 15%;
+    border-right:1px solid rgba(96, 214, 255,.3) ;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+        .scroll_down{ 
+            color: #fff;
+            position: absolute;
+            bottom: 100px;
+            right: -10px;
+            font-size: .8rem;
+            // transform:translate(-50% ,-50%) rotate(270deg) ; 
+            letter-spacing: 10px; 
+            font-weight: 100;
+            transform-origin:center;
+            transform:translateX(15%) rotate(270deg);
+            
+        }
+}
+
+.lp_left_tags_wrap{
+    width:85%;
+    height:40%;
+    position: absolute;
+    top: 52%;
+    left: 0;
+    transform: translateY(-50%);
+       
+        .lp_side_tag_each{
+            cursor: pointer;
+            width: 100%;
+            height: 44px;
+            position: absolute;;   
+            left: -40%;
+            transition: all .5s;
+            // margin-top: 15%;
+            &.tag_move{
+                left:0%;
+            }
+            &.tag1{
+                top:0%;
+                
+               
+            }    
+            &.tag2{
+                top:20%;
+               
+                
+            }
+            &.tag3{
+                top:40%;
+                
+            }
+            &.tag4{
+                top:60%;
+               
+            }
+            &.tag5{
+                top:80%;
+                
+            }
+           
+        }
+   
+}
+
+.lp_side_tag_line{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left:0;
+    top:50%; 
+    transform: translateY(-50%);
+        svg{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+        }
+}
+
+.lp_side_tag_body{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 68%;
+    transform: translate(-50% ,-50%);
+        &.click_effect{
+            background: red;
+        }
+    // transform: translateX(-50% );
+    // background:url("./../../images/tec/tec02.svg") no-repeat;
+    // background-size: cover;
+    // background-position: center;
+        // &::before{
+        //     content: '';
+        //     width: 95%;
+        //     height: 95%;
+        //     position: absolute;
+        //     top: 50%;
+        //     left: 50%;
+        //     transform: translate(-50% ,-50%);
+        //     /* Rectangle 5: */
+        //     background-image: radial-gradient(50% 150%, rgba(173,53,53,0.3) 50%, rgba(141, 7, 7,.7) 100%);
+        //     box-shadow: inset 0 1px 9px 5px rgba(248,122,122,0.50);
+        //     border-radius: 8px;
+        //     z-index: 1;
+        // }
+        span{
+            color: #fff;
+            position: absolute;
+            z-index: 2;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            // object-fit: cover;
+            // object-position: center;
+        }
+    
+}
+@media only screen and (max-width: 1280px){
+    .lp_side_tag_body span{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1124px){
+    .lp_side_tag_body span{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 950px){
+    .lp_left_side{
+       display: none;
+    }
+}
+
+
+
+
